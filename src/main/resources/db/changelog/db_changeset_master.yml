@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file:  db/changelog/changeset/initial-snapshot.sql
+  - include:
+      file: db/changelog/changeset/databases.sql

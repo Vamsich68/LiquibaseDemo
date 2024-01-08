@@ -1,0 +1,9 @@
+#url: jdbc:postgresql:///postgres
+url: jdbc:postgresql://localhost:5432/productdb?user=postgres&password=vamsi
+driver: org.postgresql.Driver
+user: postgres
+password: vamsi
+change-log: src/main/resources/db/changelog/db_changeset_master.yml
+changelogFile: src/main/resources/db/changelog/db_changeset_master.yml
+
+
